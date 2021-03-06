@@ -26,7 +26,7 @@
                     </nav>
                     <p id="principalPassion" class="myProperties">
                         <span class="key syntactic">principalPassion:</span>
-                        <br> 
+                        <br>
                         <span class="value multiline"><span class="syntactic">"</span>creating experiences and solving problems with code<span class="syntactic">",</span></span>
                     </p>
                     <p id="primaryTools" class="myProperties">
