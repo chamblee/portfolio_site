@@ -1,0 +1,138 @@
+html{
+    min-height: 100%;
+}
+
+body {
+    height: 100%;
+    background: linear-gradient(-45deg, #111348, #2e3e65);
+    font-family: "Nunito", 'Segoe UI', sans-serif;
+    margin: 0;
+}
+
+body, a {
+    color: rgb(224, 223, 233);
+    text-decoration: none;
+}
+
+header {
+    height:20px;
+}
+
+/* Navigation */
+
+.clickable {
+    cursor: pointer;
+}
+
+.iconLink {
+    transition: transform 0.5s ease;
+}
+
+.iconLink:hover {
+    transform: translateY(-3px);
+}
+
+.fillIcon:hover {
+    fill: #7db1ff;
+}
+
+.strokeIcon:hover {
+    stroke: #7db1ff;
+}
+
+.iconText {
+    visibility: hidden;
+}
+
+#myWork {
+    position: fixed;
+    width: 80px;
+    left: 50px;
+    bottom: 5px;
+    display: none;
+}
+
+#myWork2 {
+    width: 70%;
+    margin: auto;
+}
+
+/* Main Content */
+
+main {
+    min-height: 100%;
+    max-width: 75%;
+    margin: auto;
+}
+
+#myName {
+    font-size: 3.5em;
+    font-weight: 900;
+    font-style: italic;
+    margin: 0;
+    text-shadow: 1px 1px 8px #0202fb;
+    cursor: pointer;
+}
+
+.mainTitle {
+    margin: auto;
+    text-align: center;
+}
+
+.jobTitle {
+    font-weight:900;
+    font-style: italic;
+}
+
+#myName .syntactic, .value .syntactic {
+    display: none;
+}
+
+.syntactic {
+    font-size: 1.2em;
+    opacity: 0;
+    filter: blur(1px);
+    text-shadow: 2px 2px 3px #7deaff;
+    max-height: 0;
+
+    transition: all 2s ease-in-out;
+}
+
+.indentMeNot {
+    margin-left: -15px;
+}
+
+.value {
+    display: block;
+    font-family: monospace;
+    font-size: 1.2em;
+    color: #7db1ff;
+}
+
+.multiline {
+    white-space: normal;
+}
+
+.myProperties {
+    text-align: left;
+}
+
+/* Responsive */
+
+@media only screen and (min-width: 600px) {
+    #myWork2 {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .myProperties {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #myWork2 {
+        width: 30%;
+    }
+}
