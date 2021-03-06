@@ -10,7 +10,6 @@
         <noscript>Please enable JavaScript</noscript>
         <header>
         </header>
-        
         <nav id="contactMe">
             <a href="https://form.jotform.com/70575501766157">Contact Me</a>
         </nav>
@@ -23,7 +22,6 @@
                     <p class="syntactic indentMeNot">{</p>
                     <p class="key"><span class="syntactic">name:</span></p>
                     <h1 class="mainTitle" id="myName"><span class="syntactic">"</span>Shane Chamblee<span class="syntactic">"</span><span class="syntactic">,</span></h1>
-
                     <nav id="myWork">
                         <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewbox="-35 -10 200 50">            
                             <a href="https://www.linkedin.com/in/shanechamblee/">
@@ -32,7 +30,6 @@
                                     <path fill="#27325e" d="M176.79,95.09V83.41h-3.88V95.09Zm-1.94-13.27a2,2,0,1,0,.19-4h-.16a2,2,0,1,0-.2,4h.17Zm4.09,13.27h3.89V88.57a2.73,2.73,0,0,1,.12-.95,2.13,2.13,0,0,1,2-1.4c1.4,0,2,1.07,2,2.64v6.23h3.89v-6.7c0-3.61-1.92-5.26-4.47-5.26a3.88,3.88,0,0,0-3.53,2h0v-1.7h-3.89C179,84.51,178.94,95.09,178.94,95.09Z" transform="translate(-169 -72.51)" />
                                 </g>
                             </a>
-            
                             <a href="https://github.com/chamblee">
                                 <g id="github" class="clickable iconLink fillIcon" fill="#11ad11">
                                     <path d="M229.77,73.84a12.86,12.86,0,0,0-4.06,25.06c.64.11.9-.28.9-.62v-2.4c-3.58.78-4.33-1.51-4.33-1.51a3.4,3.4,0,0,0-1.43-1.88c-1.16-.8.09-.78.09-.78a2.7,2.7,0,0,1,1.92,1.3,2.74,2.74,0,0,0,3.75,1.07,2.68,2.68,0,0,1,.81-1.72c-2.85-.33-5.86-1.43-5.86-6.35a4.94,4.94,0,0,1,1.32-3.45,4.64,4.64,0,0,1,.13-3.4s1.08-.35,3.53,1.31a12.34,12.34,0,0,1,6.44,0c2.46-1.66,3.54-1.31,3.54-1.31a4.64,4.64,0,0,1,.12,3.4A4.94,4.94,0,0,1,238,86c0,4.93-3,6-5.86,6.34a3.11,3.11,0,0,1,.87,2.38v3.53c0,.34.23.74.9.62a12.86,12.86,0,0,0-4.06-25.06Z" transform="translate(-169 -72.51)" />
@@ -46,7 +43,6 @@
                                     <circle id="github_hitarea" class="hitArea" fill="rgba(255,255,255,0.0)" cx="61" cy="14" r="13" />
                                 </g>
                             </a>
-            
                             <a href="https://codepen.io/chamblee">
                                 <g id="codepen" class="clickable iconLink strokeIcon" stroke="#11ad11">
                                     <polygon fill="rgba(255,255,255,0.0)" points="98.71 18.18 111.56 26.71 124.42 18.18 124.42 9.53 111.56 1 98.71 9.53 98.71 18.18" />
@@ -60,7 +56,6 @@
 	                        <line stroke="white" x1="78.36" y1="16.6" x2="93.39" y2="16.6" />
                         </svg>            
                     </nav>
-
                     <p id="principalPassion" class="myProperties">
                         <span class="key syntactic">principalPassion:</span>
                         <br> 
