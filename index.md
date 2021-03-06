@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <head>
+    <head>∏
         <title>Shane Chamblee</title>
         <link rel="stylesheet" href="css/portfolio.css"/>
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -53,7 +53,7 @@
                                 </g>
                             </a>
                             <line stroke="white" x1="28.74" y1="16.6" x2="43.77" y2="16.6" />
-	                        <line stroke="white" x1="78.36" y1="16.6" x2="93.39" y2="16.6" />
+                            <line stroke="white" x1="78.36" y1="16.6" x2="93.39" y2="16.6" />
                         </svg>            
                     </nav>
                     <p id="principalPassion" class="myProperties">
