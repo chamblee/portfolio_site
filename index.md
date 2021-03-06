@@ -1,6 +1,5 @@
-<!DOCTYPE html>
 <html>
-    <head>∏
+    <head>
         <title>Shane Chamblee</title>
         <link rel="stylesheet" href="css/portfolio.css"/>
         <link rel="preconnect" href="https://fonts.gstatic.com">
