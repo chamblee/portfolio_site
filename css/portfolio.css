@@ -131,7 +131,7 @@ main {
 
 @media only screen and (max-device-width: 800px) {
     #myWork {
-        width: 50%;
+        width: 100%;
     }
 
     body, #contactMe a {
