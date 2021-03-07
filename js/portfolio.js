@@ -1,35 +1,29 @@
-//Fade in syntax after 2 seconds
-/* let timeout_fadeIn = setTimeout(() => {
-    fadeIn();
-}, 2000);
+//initial fade in
+fadeIn();
 
-let mousemoveCount = 0;
-document.addEventListener('mousemove', () => {
-    if (mousemoveCount > 0) {
-        return;
-    } else {
-        fadeIn();
-        mousemoveCount++;
-    }
-});*/
-
+//alternate fade in / fade out when user scrolls to top
+let scrollZeroCount = 0;
 document.addEventListener('scroll', () => {
     let scrollAmount = document.body.scrollTop;
     let mainHeight = document.querySelector('main').offsetHeight;
-    if (scrollAmount > (mainHeight * .7)) {
-        fadeOut();
-    } else if (scrollAmount === 0) {
-        fadeIn();
+    if (scrollAmount === 0) {
+        scrollZeroCount++;
+
+        if (scrollZeroCount % 2 == 0) {
+            fadeIn();
+        } else {
+            fadeOut();
+        }
     }
 });
-
-fadeIn();
 
 //fade-in or fade-out when name is clicked
 document.getElementById('myName').addEventListener('click', () => {
     let syntacticOpacity = getComputedStyle(document.querySelector('.syntactic')).opacity;
     syntacticOpacity > 0 ? fadeOut() : fadeIn();
 });
+
+//fade in and fade out functions
 
 function fadeIn() {
     //fade in syntactic elements
