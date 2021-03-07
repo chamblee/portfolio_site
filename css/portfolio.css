@@ -3,7 +3,6 @@ html{
 }
 
 body {
-    height: 100%;
     background: linear-gradient(-45deg, #111348, #2e3e65);
     font-family: "Nunito", 'Segoe UI', sans-serif;
     margin: 0;
@@ -64,7 +63,7 @@ header {
 main {
     min-height: 100%;
     max-width: 75%;
-    margin: auto;
+    margin: 60px auto;
 }
 
 #myName {
@@ -100,6 +99,10 @@ main {
     transition: all 2s ease-in-out;
 }
 
+.shrinkMe {
+    margin-bottom: -40px;
+}
+
 .indentMeNot {
     margin-left: -15px;
 }
@@ -117,6 +120,12 @@ main {
 
 .myProperties {
     text-align: left;
+}
+
+/* Other Content */
+
+#otherContent {
+    height: 700px;
 }
 
 /* Responsive */
