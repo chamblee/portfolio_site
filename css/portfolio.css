@@ -46,10 +46,11 @@ header {
 #contactMe {
     position: fixed;
     right: 25px;
+    bottom: 80px;
 }
 
 #contactMe a {
-    color: #11ad11;
+    color: #ef6c00;
 }
 
 #myWork {

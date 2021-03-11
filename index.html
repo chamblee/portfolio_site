@@ -1,17 +1,27 @@
 <html>
     <head>
         <title>Shane Chamblee</title>
-        <link rel="stylesheet" href="css/portfolio.css"/>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;0,600;1,900&display=swap" rel="stylesheet">
+        <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+        <df-messenger
+            intent="WELCOME"
+            chat-title="Shane-Bot"
+            agent-id="269fd7d4-3fdb-4197-9bb8-2eed5cd3ce54"
+            language-code="en"
+        ></df-messenger>
+        <link rel="stylesheet" href="css/portfolio.css"/>
     </head>
     <body>
         <noscript>Please enable JavaScript</noscript>
         <header>
         </header>
         <nav id="contactMe">
-            <a href="https://form.jotform.com/70575501766157">Contact Me</a>
+            <a href="https://form.jotform.com/70575501766157">Contact</a>
         </nav>
+        <div id="chatBot">
+            
+        </div>
         <main>
             <div>
                 <p class="mainTitle syntactic">let</p>
@@ -56,9 +66,9 @@
                         </svg>            
                     </nav>
                     <p id="principalPassion" class="myProperties">
-                        <span class="syntactic">principalPassion:</span>
+                        <span class="syntactic">principalPassions:</span>
                         <br>
-                        <span class="value multiline"><span class="syntactic">"</span>creating experiences and solving problems with code<span class="syntactic">",</span></span>
+                        <span class="value multiline"><span class="syntactic">"</span>To learn. To create experiences and solve problems with code<span class="syntactic">",</span></span>
                     </p>
                     <p id="primaryTools" class="myProperties">
                         <span class="syntactic">primaryTools: [</span>
